@@ -11,3 +11,5 @@ access redis console
 - redis-cli
 or 
 - docker exec -it CONTAINER_ID bash
+
+check access in config using requirepass value
