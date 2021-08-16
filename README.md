@@ -9,6 +9,8 @@ run redis :
 access redis console 
 - docker exec -it CONTAINER_ID sh
 - redis-cli
+- AUTH require_pass_value
+- ping hello
 or 
 - docker exec -it CONTAINER_ID bash
 
